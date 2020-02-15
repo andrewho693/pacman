@@ -1,0 +1,240 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>PAC-MAN</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=-1">
+<link rel="stylesheet" type="text/css" href="css/pacmanstyle.css"/>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="nav">
+            <a href= "#home" class="btn" >home</a>
+            <a href= "#high" class="btn">high score</a>
+            <a href="#how" class="btn">how to play</a>
+            <a href="#players" class="btn">players</a>       
+        </div>
+        <header>
+            <div class="logo">
+                <a href="index.html"><img class="Pacman logo" src="assets_for_atudents/Pac_man_logo.png" alt="pacman logo"></a>
+        <!--This section is for the OPENING sound-->  
+                <!--<audio controls loop>
+                    <source src="audio/pacman_start.wav" type="audio/wav" alt="OpeningSound">
+                    <source src="audio/pacman_start.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+                </audio>
+        -->
+            </div>
+        </header>
+        
+        <!--section 1-->
+        <section class ="HomeSection" id="home" alt="HomeSection">
+            <div class="chasing1">
+                <img class="pacman" id="pacman" src="assets_for_atudents/Pacman.png" alt="pacman1">
+                <span class="ghost1">
+                    <img src="assets_for_atudents/Blinky.png" alt="pinkghost">
+                    <img src="assets_for_atudents/Inky.png" alt="cyanghost">
+                    <img src="assets_for_atudents/Blinky.png" alt="redghost">
+                    <img src="assets_for_atudents/Clyde.png" alt="orangeghost">
+                </span>
+            </div>
+            <!--Pacman's Chomping Sound-->
+            <!--
+            <audio controls loop>
+                <source src="audio/pacman_chomp.wav" type="audio/wav" alt="ChompingSound">
+                <source src="audio/pacman_chomp.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+            -->
+            <div class="insertcoins">
+                <h1>INSERT COINS</h1>
+            </div>
+        </section>
+            <hr class='dotted'/>
+            
+        <!--section 2-->
+        <section class="highscores" id="high" alt="HighScores">
+            <h2>READY!</h2>
+            <p>THE 10 BEST PLAYERS</p>
+            <table class="best">
+                <tr>
+                    <th>RANK</th>
+                    <th>SCORE</th>
+                    <th>INITIALS</th>
+                </tr>
+                <tr>
+                    <th>1ST</th>
+                    <th>10,000</th>
+                    <th>JRB</th>
+                </tr>
+                <tr>
+                    <th>2ST</th>
+                    <th>9,950</th>
+                    <th>LAB</th>
+                </tr>
+                <tr>
+                    <th>3ST</th>
+                    <th>9,000</th>
+                    <th>CJB</th>
+                </tr>
+                <tr>
+                    <th>4ST</th>
+                    <th>8,750</th>
+                    <th>KED</th>
+                </tr>
+                <tr>
+                    <th>5ST</th>
+                    <th>8,500</th>
+                    <th>JBB</th>
+                </tr>
+                <tr>
+                    <th>6ST</th>
+                    <th>7,750</th>
+                    <th>SBB</th>
+                </tr>
+                <tr>
+                    <th>7ST</th>
+                    <th>7,250</th>
+                    <th>MLB</th>
+                </tr>
+                <tr>
+                    <th>8ST</th>
+                    <th>6,850</th>
+                    <th>AGD</th>
+                </tr>
+                <tr>
+                    <th>9ST</th>
+                    <th>6,500</th>
+                    <th>KAD</th>
+                </tr>
+                <tr>
+                    <th>10ST</th>
+                    <th>6,250</th>
+                    <th>BOB</th>
+                </tr>
+            </table>
+        </section>
+            <hr class='dotted'/>
+        
+        
+        <!--section3-->
+        <section class="howtoplay" id="how" alt="HowToPlay">
+            <div class="chasing2">
+                <img class="pacman1" id="pacman1" src="assets_for_atudents/Pacman.png" alt="pacman1">
+                <span class="ghost2">
+                    <img src="assets_for_atudents/Eaten.png" alt="html">
+                    <img src="assets_for_atudents/Eaten.png" alt="html">
+                    <img src="assets_for_atudents/Eaten.png" alt="html">
+                    <img src="assets_for_atudents/Eaten.png" alt="html">
+                </span>
+            </div>
+        <!--Pacman Eating Ghosts' Sound-->
+            <!--
+            <audio controls loop>
+                <source src="audio/pacman_eatghost.wav" type="audio/wav" alt="EatGhostSound">
+                <source src="audio/pacman_eatghost.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+        <!--Pacman Death's Sound-->
+            <!--
+            <audio controls loop>
+                <source src="audio/pacman_death.wav" type="audio/wav" alt="DeathSound">
+                <source src="audio/pacman_death.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+            -->
+            <div class ="playtittle">
+                <h3>HOW TO PLAY</h3>
+                <h4>SIMPLY SCORE AS MANY POINTS AS YOU</h4>
+            </div>
+            <div class="playtext">
+                <p>can eating the small dots all around the maze. 10 points per dot (240 of them). Big points come when you eat 1 of the 4 Big flashing dots called Energizers worth 50 points locate in each corner of the maze.
+                </p>
+            </div>
+        </section>
+            <hr class='dotted'/>    
+        
+        <section class="players" id="players" alt="Players">
+            <h2>PLAYERS</h2>
+            <table class="playerstable">
+                <tr>
+                    <th></th>
+                    <th>CHARACTER/</th>
+                    <th>NICKNAME</th>
+                </tr>
+                <tr>
+                    <td><img class="redghost" id="ghost" src="assets_for_atudents/Blinky.png" alt="redghost"></td>
+                    <td>-SHADOW</td>
+                    <td>"BLINKY"</td>
+                </tr>
+                <tr>
+                    <td><img class="pinkghost" id="ghost" src="assets_for_atudents/Pinky.png" alt="pinkghost"></td>
+                    <td>-SPEEDY</td>
+                    <td>"PINKY"</td>
+                </tr>
+                <tr>
+                    <td><img class="cyanghost" id="ghost" src="assets_for_atudents/Inky.png" alt="cyanghost"></td>
+                    <td>-BASHFUL</td>
+                    <td>"INKY"</td>
+                </tr>
+                <tr>
+                    <td><img class="redghost" id="ghost" src="assets_for_atudents/Clyde.png" alt="redghost"></td>
+                    <td>-POKEY</td>
+                    <td>"CLYDE"</td>
+                </tr>
+            </table>
+                <br/>
+                <!--
+                <div class="collumn">
+                    <div>
+                        <p>200</p>
+                    </div>
+                    <div>
+                        <p>PTS</p>
+                    </div>
+                </div>
+                <div class="collumn">
+                    <div>
+                        <img src="Assets_for_Students/Eaten.png" alt="blueghost">
+                    </div>
+                </div>
+                <div class="collumn">
+                    <div>
+                        <img src="Assets_for_Students/Eaten.png" alt="blueghost">
+                    </div>
+                </div>
+                <div class="collumn">
+                    <div>
+                        <img src="Assets_for_Students/Eaten.png" alt="blueghost">
+                    </div>
+                </div>
+                -->    
+                   
+                    <span class="ghostpic">
+                            <p>200 PTS</p>
+                            <img src="assets_for_atudents/Eaten.png" alt="blueghost">
+                            <img src="assets_for_atudents/Eaten.png" alt="blueghost">
+                            <img src="assets_for_atudents/Eaten.png" alt="blueghost">
+                    </span>
+                    
+                <!--This is the 2nd table in payers section -->
+            
+                <table class="playerstable2">
+                    <tr>
+                        <td>50 PT</td>
+                        <td id="dot">.</td>
+                    </tr>
+                    <tr>
+                        <td>10 PT</td>
+                        <td id="dot1">.</td>
+                    </tr>
+                </table>
+       </section>
+        
+        <div class="footer">
+            <p>THIS SITE HAS NO AFFIKIATION WITH THE ACTUAL PACMAN GAME</p>
+        </div>
+    </div>
+    
+</body>
+</html>
